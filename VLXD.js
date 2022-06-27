@@ -13,7 +13,7 @@ function displayProduct() {
         data += "<td class='name'>" + listProduct[i].name + "</td>"
         data += "<td class='name'>" + listProduct[i].price + "</td>"
         data += "<td class='name'>" + listProduct[i].color + "</td>"
-        data += "<td class='amount'>" + listProduct[i].amount + "</td>"
+        data += "<td class='name'>" + listProduct[i].amount + "</td>"
         data += "<td><button onclick='edit(" + i + ")'>Sửa lại</button></td>"
         data += "<td><button onclick='deleteProduct(" + i + ")'>Xoá</button></td>"
         data += "</tr>"
@@ -63,3 +63,4 @@ function deleteProduct(index) {
     listProduct.splice(index, 1)
     displayProduct()
 }
+
