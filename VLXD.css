@@ -72,15 +72,3 @@ table, tr, td {
     display: flex;
     justify-content: space-between;
 }
-/*.product-item button{*/
-/*    margin-top: 12px;*/
-/*    height: 30px;*/
-/*    padding: 0 12px;*/
-/*    cursor: pointer;*/
-/*    border: none;*/
-/*    border-radius: 10px;*/
-/*    transition: all 0.4s ease;*/
-/*}*/
-/*!*!*.product-item button:hover{*!*!*/
-/*!*    background-color: darkorange;*!*/
-/*!*}*!*/
